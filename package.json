@@ -50,6 +50,7 @@
     "test:integration": "vitest run tests/integration/",
     "probe:unlocker": "npx tsx probe_tests/web_unlocker.ts",
     "probe:serp": "npx tsx probe_tests/serp.ts",
+    "probe:crawler": "npx tsx probe_tests/crawlerapi.ts",
     "lint": "eslint src/**/*.ts",
     "format": "prettier . --write",
     "typecheck": "tsc --noEmit --project tsconfig.json",
